@@ -30,3 +30,45 @@
 #     i += 1
 #
 # print(salaries)
+
+
+
+# a = int(input('Print a:'))
+# b = int(input('Print b:'))
+# c = int(input('Print c:'))
+# if a == b == c:
+#     print('Равносторонний треугольник')
+# elif b == c:
+#     print('Равнобедренный треугольник')
+# else:
+#     print('Разносторонний треугольник')
+
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a % 2 == 0 and b % 2 == 1:
+#     print('OK')
+# elif a % 2 == 0 and c % 2 == 1:
+#     print('OK')
+# elif b % 2 == 0 and a % 2 == 1:
+#     print('OK')
+# elif b % 2 == 0 and c % 2 == 1:
+#     print('OK')
+# elif c % 2 == 0 and a % 2 == 1:
+#     print('OK')
+# elif c % 2 == 0 and b % 2 == 1:
+#     print('OK')
+# else:
+#     print('NOT OK')
+
+
+# x = 10
+# y = 20
+# days = 1
+# while x <= y:
+#     x += x / 100 * 10
+#     days += 1
+# print(days, x)
+
+
