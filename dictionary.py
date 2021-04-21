@@ -77,94 +77,94 @@
 
 
 
-import pprint
-data = [
-    {"dress":[
-                {'name':'louis vuitton',
-                'popularity':500,
-                 "price":1000
-                },
-                {'name':'versace',
-                'popularity':210,
-                 "price":888
-                },
-                {'name':'supreme',
-                'popularity':57,
-                 "price":765
-                },
-    ]
-    },
-    {'jeans':[
-                {'name':'adidas',
-                'popularity':42,
-                 'price':2300
-                },
-                {'name':'armani',
-                'popularity':678,
-                 'price':110
-                },
-                {'name':'casio',
-                'popularity':230,
-                 'price':3000
-                },
-    ]
-    },
-    {'t-shirt':[
-                {'name':'tom ford',
-                'popularity':999,
-                 'price':5000
-                },
-                {'name':'lacoste',
-                'popularity':777,
-                 'price':230
-                },
-                {'name':'luxury',
-                'popularity':876,
-                 'price':2300
-                },
-    ]
-    }
-]
-list1 = ['dress', 'jeans', 't-shirt']
-
-i = 0
-category_price = {}
-
-for category in data:
-    category_sum = 0
-    key = list1[i]
-    category_value = category[key]
-    for product in category_value:
-        category_sum += product['price']
-    category_price[key] = category_sum
-    i += 1
-print(max(category_price.values()))
-
-list2 = ['dress', 'jeans', 't-shirt']
-k = 0
-category_price2 = {}
-for category2 in data:
-    category_sum2 = 0
-    key2 = list1[k]
-    category_value2 = category2[key2]
-    for product2 in category_value2:
-        category_sum2 += product2['popularity']
-    category_price2[key2] = category_sum2
-    k += 1
-print(max(category_price2.values()))
-
-
-list3 = ['dress', 'jeans', 't-shirt']
-j = 0
-prices = []
-
-for max_price in data:
-    key3 = list3[j]
-    maxp_value = max_price[key3]
-    for product in maxp_value:
-        prices.append(product['price'])
-    j += 1
-print(max(prices),min(prices))
+# import pprint
+# data = [
+#     {"dress":[
+#                 {'name':'louis vuitton',
+#                 'popularity':500,
+#                  "price":1000
+#                 },
+#                 {'name':'versace',
+#                 'popularity':210,
+#                  "price":888
+#                 },
+#                 {'name':'supreme',
+#                 'popularity':57,
+#                  "price":765
+#                 },
+#     ]
+#     },
+#     {'jeans':[
+#                 {'name':'adidas',
+#                 'popularity':42,
+#                  'price':2300
+#                 },
+#                 {'name':'armani',
+#                 'popularity':678,
+#                  'price':110
+#                 },
+#                 {'name':'casio',
+#                 'popularity':230,
+#                  'price':3000
+#                 },
+#     ]
+#     },
+#     {'t-shirt':[
+#                 {'name':'tom ford',
+#                 'popularity':999,
+#                  'price':5000
+#                 },
+#                 {'name':'lacoste',
+#                 'popularity':777,
+#                  'price':230
+#                 },
+#                 {'name':'luxury',
+#                 'popularity':876,
+#                  'price':2300
+#                 },
+#     ]
+#     }
+# ]
+# list1 = ['dress', 'jeans', 't-shirt']
+#
+# i = 0
+# category_price = {}
+#
+# for category in data:
+#     category_sum = 0
+#     key = list1[i]
+#     category_value = category[key]
+#     for product in category_value:
+#         category_sum += product['price']
+#     category_price[key] = category_sum
+#     i += 1
+# print(max(category_price.values()))
+#
+# list2 = ['dress', 'jeans', 't-shirt']
+# k = 0
+# category_price2 = {}
+# for category2 in data:
+#     category_sum2 = 0
+#     key2 = list1[k]
+#     category_value2 = category2[key2]
+#     for product2 in category_value2:
+#         category_sum2 += product2['popularity']
+#     category_price2[key2] = category_sum2
+#     k += 1
+# print(max(category_price2.values()))
+#
+#
+# list3 = ['dress', 'jeans', 't-shirt']
+# j = 0
+# prices = []
+#
+# for max_price in data:
+#     key3 = list3[j]
+#     maxp_value = max_price[key3]
+#     for product in maxp_value:
+#         prices.append(product['price'])
+#     j += 1
+# print(max(prices),min(prices))
 
 
 
