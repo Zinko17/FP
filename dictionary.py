@@ -165,8 +165,9 @@
 #         prices.append(product['price'])
 #     j += 1
 # print(max(prices),min(prices))
-
-
-
-
+#
+#
+# file1 = open('text.txt', 'w')
+# file1.write(str(max(prices)))
+#
 
