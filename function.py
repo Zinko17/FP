@@ -36,17 +36,19 @@ def maximum_of_2():
 #     else:
 #         print('Логин или пароль не совпадает!')
 # auth('harry','123456')
-
-
-# def register(username, password,check_password):
-#     if len(username) >= 8 and password == check_password and not password.isalpha():
-#         return username,password
+# i = 0
+# while i < 1:
+#     def register(username, password,check_password):
+#         if len(username) >= 8 and password == check_password and not password.isalpha():
+#             return username,password
 #
-# try:
-#     username,password = register('harryyyy', '123456','123456')
-#     print('Регистрация завершена!')
-# except TypeError:
-#     print('Введите правильные данные:')
+#     try:
+#         username,password = register('harryyyy', '123456','123456')
+#         print('Регистрация завершена!')
+#     except TypeError:
+#         print('Введите правильные данные!')
+#         break
+#     i += 1
 #
 # def auth():
 #     for i in range(3):
@@ -58,3 +60,4 @@ def maximum_of_2():
 #         else:
 #             print('Логин или пароль не совпадает!')
 # auth()
+#
