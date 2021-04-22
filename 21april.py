@@ -22,8 +22,8 @@
 #     {'text':'wooooh yoow harry look at my jackpot 100000000$ at 1xbet service'},
 #     {'text':'Harry , today i saw the man who looks like Hawkeye from Avengers on 100% and he dont use 1xbet service'},
 # ]
-#
-# spam_word = None
+
+# spam_word = ''
 # qspam_word = 0
 # for i in data:
 #     data1 = i['text'].split()
@@ -36,6 +36,28 @@
 # print(spam_word)
 # final_mail = 'Hello Harry, my name is Maksim, Im  still waiting for the letter from Hogwarts'
 # if spam_word in final_mail:
+#     print('Final_mail is spam!!!')
+# else:
+#     print('Final_mail is not spam')
+
+# q_spam = 0
+# database = []
+# spam_word = ''
+# for mail in data:
+#     str = mail['text'].lower().split()
+#     database.extend(str)
+#
+# for word in database:
+#     quantity = database.count(word)
+#     print(quantity)
+#     if quantity > q_spam:
+#         q_spam = quantity
+#         spam_word = word
+# print(q_spam, spam_word)
+#
+# final_mail = 'Hello Harry, my name is Maksim, Im  still waiting for the letter from Hogwarts'
+#
+# if spam_word in final_mail.lower():
 #     print('Final_mail is spam!!!')
 # else:
 #     print('Final_mail is not spam')
