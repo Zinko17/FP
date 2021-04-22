@@ -21,19 +21,40 @@ def maximum_of_2():
 # maximum_of_2()
 
 
-def register(username,password,confirm_password):
-    if password == confirm_password:
-        return username,password
-    else:
-        print('Пароли не совпадают')
+# def register(username,password,confirm_password):
+#     if password == confirm_password:
+#         return username,password
+#     else:
+#         print('Пароли не совпадают')
+#
+# username,password = register('harryyy','123456', '123456')
+# # print(username,password)
+#
+# def auth(username1,password1):
+#     if username1 == username and password1 == password:
+#         print('Вы вошли в систему!')
+#     else:
+#         print('Логин или пароль не совпадает!')
+# auth('harry','123456')
 
-username,password = register('harry','123456', '123456')
-# print(username,password)
 
-def auth(username1,password1):
-    if username1 == username and password1 == password:
-        print('Вы вошли в систему!')
-    else:
-        print('Логин или пароль не совпадает!')
-auth('harry','123456')
-
+# def register(username, password,check_password):
+#     if len(username) >= 8 and password == check_password and not password.isalpha():
+#         return username,password
+#
+# try:
+#     username,password = register('harryyyy', '123456','123456')
+#     print('Регистрация завершена!')
+# except TypeError:
+#     print('Введите правильные данные:')
+#
+# def auth():
+#     for i in range(3):
+#         username1 = input('Введите логин:')
+#         password1 = input('Введите пароль:')
+#         if username1 == username and password1 == password:
+#             print('Вы вошли в систему!')
+#             break
+#         else:
+#             print('Логин или пароль не совпадает!')
+# auth()
