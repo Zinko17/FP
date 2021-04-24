@@ -32,17 +32,35 @@ __________
 #     'RPG':100000,
 #     'Topol-M':2000000
 # }
-# # payback = count_money(data[weapon_name],quntity,users_money)
-# # print(data[weapon])#цена
+#
+# dict1 = {}
+#
 # def count_money(price,weapon_q,users_money):
+#     # price = data[weapon]
+#     price = data[weapon]
 #     return users_money - price * weapon_q
 #
 # weapon = 'AWM'
+# price = data[weapon]
 # def buyer_dt(weapon_name,weapon_q,users_money):
+#     summ_price = price * weapon_q
+#     payback = count_money(data[weapon_name], weapon_q, users_money)
 #     if weapon in data:
 #         if weapon_name == weapon:
-#             print(data[weapon])
+#             print('Цена товара:',data[weapon])
 #         else:
 #             print('Такого оружия нет')
-# buyer_dt('AWM', 1, 35000)
+#
+#     if price * weapon_q <= users_money:
+#         print('Спасибо за покупку')
+#         print('Ваша сдача:', payback)
+#         dict1[weapon] = weapon_q,
+#         dict1['Потрачено:'] = summ_price
+#     else:
+#         print('Недостаточно средств')
+#
+# buyer_dt('AWM', 5, 150001)
+# print(dict1)
+
+
 
