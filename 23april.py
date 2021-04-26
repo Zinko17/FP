@@ -8,8 +8,8 @@ __________
 Выходные данные: словарь состящий из:
 {названия товара как ключ:кол-во, следующий элемент - потраченная сумма - ключ, значение сумма}
 """
-
-# data = {
+# Моя версия
+# data = {K
 #     'glock.20': 2000,
 #     'usp': 2500,
 #     'fs': 3467,
@@ -67,3 +67,24 @@ __________
 # buyer_dt('AWM', 5, 150001)
 
 
+# weapon = input()
+# quantity = int(input())
+# money = int(input())
+# def count_payback(price,quantity,money):
+#     payback = quantity * price
+#     if money >= payback:
+#         return money - payback
+#     else:
+#         return 'Недостаточно средств'
+# def shop(weapon_name,quantity,money):
+#     if weapon_name in data:
+#         price = data[weapon_name]
+#         payback = count_payback(price,quantity,money)
+#         if isinstance(payback,int):
+#             result = {weapon_name:quantity,'total_sum':price*quantity}
+#         else:
+#             result = payback
+#         print(result)
+#     else:
+#         print('We have no {}!'.format(weapon_name))
+# shop(weapon,quantity,money)
