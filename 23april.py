@@ -9,45 +9,48 @@ __________
 {названия товара как ключ:кол-во, следующий элемент - потраченная сумма - ключ, значение сумма}
 """
 
-
 # data = {
-#     'glock.20':2000,
-#     'usp':2500,
-#     'fs':3467,
-#     'deagle':5000,
-#     'p92':4000,
-#     'colt':90000,
-#     'magnum':6000,
-#     'p90':10000,
-#     'mp7':11000,
-#     'uzi':12000,
-#     'mp5':14000,
-#     'm16':20000,
-#     'ak-47':19000,
-#     'm416':24000,
-#     'famas':21000,
-#     'AWM':30000,
-#     'Dragunov':31000,
-#     'Barett':50000,
-#     'RPG':100000,
-#     'Topol-M':2000000
+#     'glock.20': 2000,
+#     'usp': 2500,
+#     'fs': 3467,
+#     'deagle': 5000,
+#     'p92': 4000,
+#     'colt': 90000,
+#     'magnum': 6000,
+#     'p90': 10000,
+#     'mp7': 11000,
+#     'uzi': 12000,
+#     'mp5': 14000,
+#     'm16': 20000,
+#     'ak-47': 19000,
+#     'm416': 24000,
+#     'famas': 21000,
+#     'AWM': 30000,
+#     'Dragunov': 31000,
+#     'Barett': 50000,
+#     'RPG': 100000,
+#     'Topol-M': 2000000
 # }
 #
 # dict1 = {}
 #
-# def count_money(price,weapon_q,users_money):
+#
+# def count_money(price, weapon_q, users_money):
 #     # price = data[weapon]
 #     price = data[weapon]
 #     return users_money - price * weapon_q
 #
+#
 # weapon = 'AWM'
 # price = data[weapon]
-# def buyer_dt(weapon_name,weapon_q,users_money):
+#
+#
+# def buyer_dt(weapon_name, weapon_q, users_money):
 #     summ_price = price * weapon_q
 #     payback = count_money(data[weapon_name], weapon_q, users_money)
 #     if weapon in data:
 #         if weapon_name == weapon:
-#             print('Цена товара:',data[weapon])
+#             print('Цена товара:', data[weapon])
 #         else:
 #             print('Такого оружия нет')
 #
@@ -56,11 +59,11 @@ __________
 #         print('Ваша сдача:', payback)
 #         dict1[weapon] = weapon_q,
 #         dict1['Потрачено:'] = summ_price
+#         print(dict1)
 #     else:
 #         print('Недостаточно средств')
 #
+#
 # buyer_dt('AWM', 5, 150001)
-# print(dict1)
-
 
 
