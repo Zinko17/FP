@@ -15,14 +15,14 @@
 # file1 = open('text.txt', 'w')
 # file1.write('hello')
 
-
+#
 # data = [
 #     {'text':'oh hi duuuude how r uy??check this 1xbet'},
 #     {'text':'Dear Harry Potter, i am Frodo Baggins 1xbet represent 1xbet company.Best bet service'},
 #     {'text':'wooooh yoow harry look at my jackpot 100000000$ at 1xbet service'},
 #     {'text':'Harry , today i saw the man who looks like Hawkeye from Avengers on 100% and he dont use 1xbet service'},
 # ]
-
+#
 # spam_word = ''
 # qspam_word = 0
 # for i in data:
