@@ -29,25 +29,32 @@
 #         if blog['id'] == post['blog_id']:
 #             rate_sum += post['rate']
 #             post_q += 1
-#             rate_avg = rate_sum/post_q
-#             round(rate_avg,1)
-#             blog['Average'] = rate_avg
-
-
+#     rate_avg = rate_sum/post_q
+#     rate_avg=round(rate_avg,1)
+#     blog['Average'] = rate_avg
+#
+#
 # for blog in blogs:
 #     top = 0
-#     print(blog['Average'])
+#     print('Средние значения блогов:',blog['Average'],'Номер блога:',blog['id'])
 #     if blog['Average'] > top:
 #         top += blog['Average']
-# print(top,blog['id'])
-
+# print('топовый блог:',top,blog['id'])
+#
 # top_p1 = 0
 # for blog in blogs:
 #     top_p = 0
 #     for post in posts:
 #         if top_p < post['rate']:
 #             top_p = post['rate']
-# print(top_p)
+#
+#
+# for post in posts:
+#     if post['rate'] == top_p:
+#         print('Топ посты:',post['rate'],post['id'])
+
+
+
 
 
 
