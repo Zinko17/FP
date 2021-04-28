@@ -37,8 +37,6 @@
 #             name.remove(same)
 #
 #
-#
-#
 #     return worker_of_month
 #
 # worker_of_month = remove_same(worker_of_month)
@@ -60,7 +58,7 @@
 #     for worker_key,worker_value in worker_of_month.items():
 #             for worker in worker_value:
 #                 for user in data:
-#                     if len(user) > 1:
+#                     if len(worker_value) > 1:
 #                         if user['user'] == worker:
 #                             user['salary'] = user['salary'] + (user['salary'] * 0.05)
 #
