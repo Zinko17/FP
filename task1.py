@@ -84,12 +84,13 @@ def fill_none(users,purchases,products):
             user['total_amount'] = summ
     return users
 fill_none(users,purchases,products)
-# pprint.pprint(users)
+pprint.pprint(users)
 
 
-file1 = open('test1.txt','w')
-:
 
-file1.write('users')
-
+for user in users:
+    user['username'] = 'username'
+    user['total_amount'] = 'total'
+    file1 = open('file1.txt', 'w')
+    file1.write('username')
 
