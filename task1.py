@@ -87,9 +87,8 @@ fill_none(users,purchases,products)
 # pprint.pprint(users)
 
 
+file1 = open('file1.txt', 'w')
+for user in users:
 
-# for user in users:
-
-    # file1 = open('file1.txt', 'a+')
-    # file1.write(str(user['username'],))
-    # file1.write(str(user['total_amount']))
+    file1.write(str(user['username']))
+    file1.write(str(user['total_amount']))
