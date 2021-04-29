@@ -1,0 +1,8 @@
+superman : 57890
+Bruce Wayne : 1000000000
+joker : 79000
+jamilya : 777000
+aliya : 777000
+cr7 : 112000
+trump : 1000000000
+cholpon : 200000
