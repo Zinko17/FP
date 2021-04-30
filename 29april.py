@@ -102,10 +102,11 @@ def user_search(posts, comments, users,):
             for post_c in post['comms']:
                 for comment in comments:
                     if post_c == comment['comment'] and user['id'] == comment['user_id']:
-                        users1.append(user)
+                        if user not in users1:
+                            users1.append(user)
 
     return users1
 
 
 users = user_search(posts,comments,users)
-pprint.pprint(users,)
+pprint.pprint(users)
